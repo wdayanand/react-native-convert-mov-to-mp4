@@ -1,13 +1,14 @@
-# react-native-mov-to-mp4
+# react-native-convert-mov-to-mp4
 
 Convert mov file to mp4 for cross-platform playback compatibility.
-
+This project is based on https://www.npmjs.com/package/react-native-mov-to-mp4
+we created this project for fix import path
 ## Installation
 
 **react-native >= 0.40:**
 
 ```
-npm install react-native-mov-to-mp4 --save
+npm install react-native-convert-mov-to-mp4 --save
 ```
 
 also for iOS:
@@ -19,18 +20,18 @@ cd ios && pod install && cd ..
 **react-native < 0.40:**
 
 ```
-npm install react-native-mov-to-mp4@0.1 --save
+npm install react-native-convert-mov-to-mp4 --save
 ```
 
-link react-native-mov-to-mp4:
+link react-native-convert-mov-to-mp4:
 
 
 ```ruby
-react-native link react-native-mov-to-mp4
+react-native link react-native-convert-mov-to-mp4
 ```
 
 ```javascript
-import MovToMp4 from 'react-native-mov-to-mp4';
+import MovToMp4 from 'react-native-convert-mov-to-mp4';
 
 const filename = Date.now().toString();
 MovToMp4.convertMovToMp4(data.path, filename + ".mp4")

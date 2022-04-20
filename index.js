@@ -1,7 +1,7 @@
 import { Platform } from "react-native";
 
-import MovToMp4Ios from "./movToMp4.ios.js";
-import MovToMp4Android from "./movToMp4.android.js";
+import MovToMp4Ios from "./index.ios";
+import MovToMp4Android from "./index.android";
 
 const MovToMp4 = Platform.OS === "ios"
   ? MovToMp4Ios
